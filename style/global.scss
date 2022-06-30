@@ -1,0 +1,157 @@
+.head {
+  background: url("../images/background.png") 0 0 no-repeat;
+  background-size: cover;
+  &__navigation {
+    padding: 36px 0px;
+    display: grid;
+    grid-template: 1fr/1fr 1fr 1fr;
+    grid-template-areas: "logo links icons";
+    align-items: center;
+  }
+
+  &__logo {
+    font-family: "Martel";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: 0.1px;
+    margin-right: 545px;
+    /* text-color */
+    color: #252b42;
+    grid-area: logo;
+  }
+
+  &__links {
+    column-gap: 21px;
+    display: flex;
+    grid-area: links;
+    & a {
+      font-family: "OpenSans";
+      font-style: normal;
+      font-weight: 600;
+      padding: 0 1.9px;
+      font-size: 14px;
+      line-height: 24px;
+      /* identical to box height, or 171% */
+
+      text-align: center;
+      letter-spacing: 0.2px;
+
+      /* second-text-color */
+
+      color: #737373;
+      text-decoration: none;
+    }
+  }
+
+  &__icons {
+    display: flex;
+    // justify-content: center;
+    margin-left: 39px;
+    align-items: center;
+    grid-area: icons;
+    column-gap: 18px;
+  }
+
+  &__search {
+  }
+
+  &__bucket {
+  }
+
+  &__toggler {
+    position: absolute;
+    top: 45px;
+    right: 60px;
+  }
+
+  &__bottom {
+    display: flex;
+    // column-gap: 31px;
+  }
+
+  &__item {
+    width: 509px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__item-content {
+  }
+
+  &__title {
+    margin: 0;
+    font-family: "Martel";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 65px;
+    /* or 112% */
+
+    letter-spacing: 0.2px;
+
+    /* text-color */
+
+    color: #252b42;
+  }
+
+  &__subtile {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 33px;
+    letter-spacing: 0.2px;
+    max-width: 73.9%;
+    color: #737373;
+  }
+
+  &__btns {
+    display: flex;
+    margin-top: 36px;
+  }
+
+  &__btn {
+    &:nth-child(2) {
+      background: none;
+    }
+  }
+
+  &__btn-item {
+    border: none;
+    padding: 10px 36px;
+    margin-right: 10px;
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* light-text-color */
+
+    color: #ffffff;
+    color: #ffffff;
+    background: #784f33;
+    border-radius: 37px;
+    &-op {
+      color: #784f33;
+      border: 1px solid #784f33;
+      background: none;
+    }
+  }
+  &__women {
+    & img {
+      display: block;
+    }
+  }
+}
+.container {
+}
