@@ -2,63 +2,380 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style/style.css">
-  <title>Legalide</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Legalide</title>
 </head>
 
 <body>
-  <header class="head">
-    <div class="head__block container">
-      <nav class="head__navigation">
-        <div class="head__logo">Legalide</div>
-        <div class="head__links">
-          <a href="#">Home</a>
-          <a href="#">Product</a>
-          <a href="#">Pricing</a>
-          <a href="#">Contact</a>
+<header class="head">
+    <div class="head__block ">
+        <div class="head__nav-wrapper">
+            <nav class="head__navigation container">
+                <div class="head__logo">Legalide</div>
+                <div class="head__links">
+                    <a href="#">Home</a>
+                    <a href="#">Product</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="head__icons">
+                    <div class="head__search">
+                        <picture><source srcset="./img/search.webp" type="image/webp"><img src="./img/search.png" alt="search-icon"></picture>
+                    </div>
+                    <div class="head__bucket">
+                        <picture><source srcset="./img/bucket.webp" type="image/webp"><img src="./img/bucket.png" alt="bucket"></picture>
+                    </div>
+                    <div class="head__toggler">
+                        <picture><source srcset="./img/navbar-toggler.webp" type="image/webp"><img src="./img/navbar-toggler.png" alt="toggler"></picture>
+                    </div>
+                </div>
+            </nav>
         </div>
-        <div class="head__icons">
-          <div class="head__search">
-            <img src="./images/search.png" alt="search-icon">
-          </div>
-          <div class="head__bucket">
-            <img src="./images/bucket.png" alt="bucket">
-          </div>
-          <div class="head__toggler">
-            <img src="./images/navbar-toggler.png" alt="toggler">
-          </div>
-        </div>
-      </nav>
-      <div class="head__bottom">
-        <div class="head__item">
-          <div class="head__item-content">
-            <h1 class="head__title">Help to reclaim your life and freedom </h1>
-            <div class="head__subtile">We know how large objects will act,
-              but things on a small scale.</div>
-            <div class="head__btns">
-              <div class="head__btn">
-                <button class="head__btn-item">Get Quote Now</button>
-              </div>
-              <div class="head__btn">
-                <button class="head__btn-item head__btn-item-op">Learn More</button>
-              </div>
+        <div class="head__bottom container">
+            <div class="head__item">
+                <div class="head__item-content">
+                    <h1 class="head__title">Help to reclaim your life <br style="display: none;"> and freedom </h1>
+                    <div class="head__subtile">We know how large objects will act,
+                        but things on a small scale.
+                    </div>
+                    <div class="head__btns">
+                        <div class="head__btn">
+                            <button class="head__btn-item">Get Quote Now</button>
+                        </div>
+                        <div class="head__btn">
+                            <button class="head__btn-item head__btn-item-op">Learn More</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="head__item">
+                <div class="head__women">
+                    <picture><source srcset="./img/women.webp" type="image/webp"><img src="./img/women.png" alt="women"></picture>
+                </div>
+            </div>
         </div>
-        <div class="head__item">
-          <div class="head__women">
-            <img src="./images/women.png" alt="women">
-          </div>
-        </div>
-      </div>
     </div>
+</header>
 
-  </header>
+<main class="">
+    <section class="areas">
+        <div class="areas__block container">
+            <div class="areas__title title__var">our practice areas</div>
+            <div class="areas__subtitle subtitle__var">
+                Problems trying to resolve the conflict between <br>
+                the two major realms of Classical physics: Newtonian mechanics
+            </div>
+            <div class="areas__cards cards">
+                <div class="cards__item card">
+                    <div class="card__content">
+                        <picture><source srcset="./img/familyLaw.webp" type="image/webp"><img src="./img/familyLaw.png" alt="family law"></picture>
+                        <div class="card__text">Family Law</div>
+                    </div>
+                </div>
+                <div class="cards__item card active">
+                    <div class="card__content">
+                        <picture><source srcset="./img/businnesLaw.webp" type="image/webp"><img src="./img/businnesLaw.png" alt="business law"></picture>
+                        <div class="card__text">Business Law</div>
+                    </div>
+                </div>
+                <div class="cards__item card">
+                    <div class="card__content">
+                        <picture><source srcset="./img/trust.webp" type="image/webp"><img src="./img/trust.png" alt="trust"></picture>
+                        <div class="card__text">Trust & Estates</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="practice">
+        <div class="practice__block container">
+            <div class="practice__title title__var">Practice Advice</div>
+            <div class="practice__subtitle subtitle__var">
+                Problems trying to resolve the conflict between <br>
+                the two major realms of Classical physics: Newtonian mechanics
+            </div>
+            <div class="practice__cards cards-practice">
+                <div class="cards-practice__item practice-card">
+                    <div class="practice-card__content">
+                        <div class="practice-card__title">Frauds or Mislead</div>
+                        <div class="practice-card__subtitle">
+                            Newton thought that
+                            light was made up of
+                            particles, but then it
+                            was discovered
+                        </div>
+                        <div class="practice-card__img">
+                            <picture><source srcset="./img/cover.webp" type="image/webp"><img src="./img/cover.png" alt="cover"></picture>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards-practice__item practice-card">
+                    <div class="practice-card__content">
+                        <div class="practice-card__title">Bailes &
+                            Warrants
+                        </div>
+                        <div class="practice-card__subtitle">
+                            “Quantum mechanics”
+                            is the description of the
+                            behaviour of matter
+                        </div>
+                        <div class="practice-card__img">
+                            <picture><source srcset="./img/cover-1.webp" type="image/webp"><img src="./img/cover-1.png" alt="cover1"></picture>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards-practice__item practice-card">
+                    <div class="practice-card__content">
+                        <div class="practice-card__title">Federal Drug
+                            Crimes
+                        </div>
+                        <div class="practice-card__subtitle">
+                            They describe a
+                            universe consisting of
+                            bodies moving
+                        </div>
+                        <div class="practice-card__img">
+                            <picture><source srcset="./img/cover-2.webp" type="image/webp"><img src="./img/cover-2.png" alt="cover2"></picture>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards-practice__item practice-card">
+                    <div class="practice-card__content">
+                        <div class="practice-card__title">Traffic Related
+                            Crimes
+                        </div>
+                        <div class="practice-card__subtitle">
+                            They finally obtained
+                            a consistent description
+                            of the behaviour
+                        </div>
+                        <div class="practice-card__img">
+                            <picture><source srcset="./img/cover-3.webp" type="image/webp"><img src="./img/cover-3.png" alt="cover3"></picture>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="about__block container">
+            <div class="about__text-block">
+                <div class="about__title title__var">who we are</div>
+                <div class="about__subtitle subtitle__var">
+                    Problems trying to resolve the conflict between the two major
+                    realms
+                    of Classical physics: Newtonian mechanics
+                </div>
+            </div>
+            <div class="about__main">
+                <div class="about__item">
+                    <div class="about__video">
+                        <picture><source srcset="./img/video.webp" type="image/webp"><img src="./img/video.png" alt="video-baner"></picture>
+                    </div>
+                </div>
+                <div class="about__item">
+                    <div class="about__text">
+                        <div class="about__item-title title__var">Most trusted in
+                            our field
+                        </div>
+                        <div class="about__item-subtitle subtitle__var">
+                            Most calendars are designed for teams. Slate
+                            is designed for freelancers who want a
+                            simple way to plan their schedule.
+                        </div>
+                        <div class="about__item__icon-block icon-block">
+                            <picture><source srcset="./img/group.webp" type="image/webp"><img src="./img/group.png" alt="group-icon"></picture>
+                            <div class="icon-block__text">
+                                the quick fox jumps over the lazy
+                                dog
+                            </div>
+                        </div>
+                        <div class="about__item__icon-block icon-block">
+                            <picture><source srcset="./img/speed.webp" type="image/webp"><img src="./img/speed.png" alt="speed"></picture>
+                            <div class="icon-block__text">
+                                the quick fox jumps over the lazy
+                                dog
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="partners">
+        <div class="partners__block container">
+            <div class="partners__list list">
+                <div class="partners__list__group">
+                    <div class="list__item">
+                        <picture><source srcset="./img/hooli.webp" type="image/webp"><img src="./img/hooli.png" alt="hooli-logo"></picture>
+                    </div>
+                    <div class="list__item">
+                        <picture><source srcset="./img/lyft.webp" type="image/webp"><img src="./img/lyft.png" alt="lyft-logo"></picture>
+                    </div>
+                    <div class="list__item">
+                        <picture><source srcset="./img/listok.webp" type="image/webp"><img src="./img/listok.png" alt="listok-logo"></picture>
+                    </div>
+                </div>
+                <div class="partners__list__group">
+                    <div class="list__item">
+                        <picture><source srcset="./img/stripe.webp" type="image/webp"><img src="./img/stripe.png" alt="stripe-logo"></picture>
+                    </div>
+                    <div class="list__item">
+                        <picture><source srcset="./img/aws.webp" type="image/webp"><img src="./img/aws.png" alt="aws-logo"></picture>
+                    </div>
+                    <div class="list__item">
+                        <picture><source srcset="./img/reddit.webp" type="image/webp"><img src="./img/reddit.png" alt="reddit-logo"></picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="subscription">
+        <div class="subscription__block container">
+            <form class="subscription__form form">
+                <h3 class="form__title">Subscribe For Latest <br>Newsletter</h3>
+                <div class="form__get">
+                    <input type="text" placeholder="Your Email">
+                    <input type="submit" value="Subscribe">
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="call">
+        <div class="call__block container">
+            <div class="call__title title__var">get in touch</div>
+            <div class="call__subtitle subtitle__var">
+                <pre>Problems trying to resolve the conflict between
+the two major realms of Classical physics: Newtonian mechanics</pre>
+            </div>
+            <div class="call__cards cards-call">
+                <div class="cards-call__item card-call">
+                    <div class="card__icon">
+                        <picture><source srcset="./img/tel-icon.webp" type="image/webp"><img src="./img/tel-icon.png" alt="tel-icon"></picture>
+                    </div>
+                    <h6 class="card-call__email">georgia.young@example.com</h6>
+                    <h6 class="card-call__email">georgia.young@ple.com</h6>
+                    <h5 class="card-call__support">Get Support</h5>
+                    <button class="card-call__btn">
+                        Submit Request
+                    </button>
+                </div>
+                <div class="cards-call__item card-call special">
+                    <div class="card__icon">
+                        <picture><source srcset="./img/map-icon.webp" type="image/webp"><img src="./img/map-icon.png" alt="map-icon"></picture>
+                    </div>
+                    <h6 class="card-call__email">georgia.young@example.com</h6>
+                    <h6 class="card-call__email">georgia.young@ple.com</h6>
+                    <h5 class="card-call__support">Get Support</h5>
+                    <button class="card-call__btn">
+                        Submit Request
+                    </button>
+                </div>
+                <div class="cards-call__item card-call">
+                    <div class="card__icon">
+                        <picture><source srcset="./img/send-icon.webp" type="image/webp"><img src="./img/send-icon.png" alt="send-icon"></picture>
+                    </div>
+                    <h6 class="card-call__email">georgia.young@example.com</h6>
+                    <h6 class="card-call__email">georgia.young@ple.com</h6>
+                    <h5 class="card-call__support">Get Support</h5>
+                    <button class="card-call__btn">
+                        Submit Request
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="consultation">
+        <div class="consultation__block container">
+            <div class="consultation__box">
+                <div class="consultation__text">
+                    <h3 class="consultation__title">Request A Free Consultation</h3>
+                    <p class="consultation__paragraph">the quick fox jumps over the lazy dog</p>
+                </div>
+                <button class="consultation__contact">
+                    Contact Us
+                </button>
+            </div>
+        </div>
+    </section>
+</main>
 
+<footer>
+    <div class="footer__top">
+        <div class="footer__top__block container">
+            <div class="footer__top__main">
+                <div class="footer__top__main__item">
+                    <h5 class="footer__top__main__item__title">Company Info</h5>
+                    <ul class="footer__top__item__list">
+                        <li><a href="#" class="footer__top__item-link">About Us</a></li>
+                        <li><a href="#" class="footer__top__item-link">Carrier</a></li>
+                        <li><a href="#" class="footer__top__item-link">We are hiring</a></li>
+                        <li><a href="#" class="footer__top__item-link">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer__top__main__item">
+                    <h5 class="footer__top__main__item__title">Legal</h5>
+                    <ul class="footer__top__item__list">
+                        <li><a href="#" class="footer__top__item-link">About Us</a></li>
+                        <li><a href="#" class="footer__top__item-link">Carrier</a></li>
+                        <li><a href="#" class="footer__top__item-link">We are hiring</a></li>
+                        <li><a href="#" class="footer__top__item-link">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer__top__main__item">
+                    <h5 class="footer__top__main__item__title">Features</h5>
+                    <ul class="footer__top__item__list">
+                        <li><a href="#" class="footer__top__item-link">Business Marketing</a></li>
+                        <li><a href="#" class="footer__top__item-link">User Analytic</a></li>
+                        <li><a href="#" class="footer__top__item-link">Live Chat</a></li>
+                        <li><a href="#" class="footer__top__item-link">Unlimited Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer__top__main__item">
+                    <h5 class="footer__top__main__item__title">Resources</h5>
+                    <ul class="footer__top__item__list">
+                        <li><a href="#" class="footer__top__item-link">IOS & Android</a></li>
+                        <li><a href="#" class="footer__top__item-link">Watch a Demo</a></li>
+                        <li><a href="#" class="footer__top__item-link">Customers</a></li>
+                        <li><a href="#" class="footer__top__item-link">API</a></li>
+                    </ul>
+                </div>
+                <div class="footer__top__main__item">
+                    <h5 class="footer__top__main__item__title">Get In Touch</h5>
+                    <ul class="footer__top__item__list footer__top__item__list-contacts">
+                        <li><picture><source srcset="./img/bx_bx-phone.webp" type="image/webp"><img src="./img/bx_bx-phone.png" alt="bx_bx-phone"></picture><span>(480) 555-0103</span></li>
+                        <li><picture><source srcset="./img/bx_bx-map.webp" type="image/webp"><img src="./img/bx_bx-map.png" alt="bx_bx-map"></picture><span>4517 Washington Ave.</span></li>
+                        <li><picture><source srcset="./img/Vector.webp" type="image/webp"><img src="./img/Vector.png" alt="bx_bx-send"></picture><span>debra.holt<br style="display: none;">@example.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="footer__bottom__block container">
+            <div class="footer__bottom__box">
+                <h6 class="footer__bottom__text">Made With Love By Figmaland All Right Reserved</h6>
+                <div class="footer__bottom__icons">
+                    <picture><source srcset="./img/fb.webp" type="image/webp"><img src="./img/fb.png" alt="fb" class="footer__bottom__icon"></picture>
+                    <picture><source srcset="./img/inst.webp" type="image/webp"><img src="./img/inst.png" alt="inst" class="footer__bottom__icon"></picture>
+                    <picture><source srcset="./img/twitter.webp" type="image/webp"><img src="./img/twitter.png" alt="twitter" class="footer__bottom__icon"></picture>
+                    <picture><source srcset="./img/youtube.webp" type="image/webp"><img src="./img/youtube.png" alt="youtube" class="footer__bottom__icon"></picture>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+  const links = document.querySelector('.head__links');
+  document.querySelector('.head__toggler').addEventListener('click', e => {
+    links.classList.toggle('show');
+  })
+</script>
 </body>
 
 </html>

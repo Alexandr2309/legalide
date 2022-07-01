@@ -1,0 +1,413 @@
+@media (min-width: 0px) {
+  .container {
+    margin: 0px auto;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 1200px) {
+  .head__women {
+    align-self: end;
+
+    & img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .head__logo {
+    margin-right: 300px;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer__top__main {
+    padding-right: 0px;
+    column-gap: 10px;
+  }
+  .call__block {
+    padding: 75px 42px !important;
+  }
+  .call__cards {
+    flex-direction: column;
+    align-items: unset !important;
+  }
+  .form__title {
+    margin-right: 90px;
+  }
+.partners__list {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+  .about__main {
+    &__item-title {
+      flex: 0 1 auto;
+    }
+    flex-direction: column;
+
+  }
+  .head__logo {
+    margin-right: 150px !important;
+  }
+  .head__title {
+    font-size: 42px;
+  }
+  .head__subtile {
+    font-size: 18px;
+  }
+  .head__btn-item {
+    padding: 10px 30px;
+  }
+  .practice__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    &.cards-practice {
+    }
+  }
+  .practice-card__content {
+    flex: 1 1 auto;
+    align-items: center;
+  }
+  .practice-card__img {
+    align-self: center;
+  }
+  .practice__subtitle {
+    margin-top: 10px;
+  }
+  .about__video {
+    position: relative;
+    height: 442px;
+    background: url("@img/video.png")center no-repeat;
+    background-attachment: local;
+    & img {
+      max-width: 100%;
+      visibility: hidden;
+      z-index: -10;
+    }
+    overflow: hidden;
+  }
+  .consultation__box {
+    padding-right: 0px;
+  }
+  .consultation__contact {
+    flex: 1 1 auto;
+    min-width: 100px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__top__main {
+    flex-direction: column;
+  row-gap: 30px;
+  }
+  .consultation__box {
+    flex-direction: column;
+    row-gap: 50px;
+    & * {
+      text-align: center;
+    }
+  }
+  .consultation__contact {
+    padding: 15px 79px;
+  }
+  .call__subtitle {
+    & pre {
+      white-space:  normal;
+    }
+  }
+  .form {
+    margin-top: 0px !important;
+    flex-direction: column;
+    padding: 30px 38.5px;
+    align-items: unset !important;
+
+    margin: 0;
+    &__title {
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 30px;
+    }
+  }
+  .about__subtitle {
+    padding: 0px 0px;
+  }
+  .about {
+    padding-right: 42px;
+    padding-left: 42px;
+  }
+  .practice {
+    padding-right: 42px;
+    padding-left: 42px;
+    &-card {
+      justify-content: center;
+    }
+  }
+  .practice-card__content {
+    align-items: start;
+    max-width: 232px;
+  }
+  .practice-card__img {
+
+  }
+  .practice-card__title,
+  .practice-card__subtitle {
+    //box-sizing: border-box;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+  }
+  .head {
+    background-position: center 0px;
+
+    &__navigation {
+      // padding-bottom: 20px;
+      grid-template: repeat(2, minmax(1px, auto)) / 1fr 1fr;
+      grid-template-areas: "logo icons" "links links";
+    }
+
+    &__nav-wrapper {
+      background-color: #ffffff;
+    }
+
+    &__icons {
+      justify-self: end;
+    }
+
+    &__logo {
+      margin: 0px;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: 0.1px;
+      color: #252b42;
+      margin-right: 0px !important;
+    }
+
+    &__toggler {
+      position: static;
+    }
+
+    &__bottom {
+      padding: 84px 0px 21px;
+      flex-direction: column;
+      align-items: center;
+
+      * {
+        text-align: center;
+        max-width: 100%;
+        // padding: 0 1.5rem;
+      }
+    }
+
+    &__women {
+      margin-top: 108px;
+
+      & img {
+        width: 414px;
+        max-height: 445px;
+      }
+    }
+
+    & br {
+      display: inline !important;
+    }
+
+    &__title {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 50px;
+      text-align: center;
+      letter-spacing: 0.2px;
+      white-space: unset;
+    }
+
+    &__subtile {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0.2px;
+    }
+
+    &__btns {
+      flex-direction: column;
+
+      & button {
+        padding: 10px 36px;
+      }
+    }
+
+    &__btn {
+      &:not(:first-child) {
+        margin-top: 20px;
+      }
+    }
+
+    &__links {
+      display: none;
+      margin-bottom: 50px;
+      margin-top: 30px;
+      flex-direction: column;
+      &.show {
+        display: flex;
+      }
+      & a {
+        &:not(:first-child) {
+          // margin-top: 30px;
+        }
+
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 150%;
+      }
+    }
+  }
+  .areas {
+    padding-left: 42px;
+    padding-right: 42px;
+
+    &__title {
+      //font-size: 32px;
+    }
+
+    & br {
+      display: none;
+    }
+  }
+  .cards {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer__top {
+    padding-right: 88.5px;
+    padding-left: 88.5px;
+  }
+  .consultation {
+    padding-right: 90px;
+    padding-left: 90px;
+    &__box {
+      align-items: unset;
+      & *:not(.consultation__contact) {
+        text-align: left;
+      }
+    }
+
+    &__contact {
+      padding: 15px 0px;
+    }
+  }
+  .subscription {
+    padding: 0;
+  }
+  .partners__list {
+    flex-direction: column;
+    &__group {
+      flex-direction: column;
+      row-gap: 60px;
+    }
+  }
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .head__navigation {
+    padding-right: 36px;
+    padding-left: 36px;
+  }
+  .head {
+    &__bottom {
+      & * {
+        padding-right: 0.75rem;
+        padding-left: 0.75rem;
+      }
+    }
+
+    &__title {
+      font-size: 36px;
+    }
+  }
+  .footer__bottom__box {
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: unset;
+  }
+  .footer__bottom {
+    padding-right: 89px;
+    padding-left: 89px;
+  }
+  .footer__bottom__icons {
+    padding: 0;
+  }
+}
+
+@media (max-width: 398px) {
+  .form__get input[type="text"] {
+    padding: 15px 0 15px 5px;
+    //flex: 1 1 auto;
+  }
+  .form__get input[type="submit"] {
+    padding: 15px 5px;
+  }
+  .footer__top br{
+    display: block !important;
+  }
+  .card-call {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .head {
+    &__bottom {
+      & * {
+        padding-right: 0.75rem;
+        padding-left: 0.75rem;
+      }
+    }
+
+    &__btn-item {
+      padding: 10px 0px;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px !important;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1050px !important;
+  }
+  .head__logo {
+    margin-right: 545px !important;
+  }
+}
+
+@media (min-width: 1445px) {
+  .container {
+  }
+}
